@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="container">
+        <h3>The World Is Yours</h3>
+        <p class="dark-mode">Dark Mode</p>
+    </nav>
+
+    <main>
+        <section class="container">
+            <form action>
+                <i class="fas fa-search"></i>
+                <input type="text" name="search" id="search" placeholder="find a country">
+            </form>
+            <select name="searchContinent" id="searchContinent">
+                <option>Search Continent</option>
+                <option value="americas">America</option>
+                <option value="africa">Africa</option>
+                <option value="asia">Asia</option>
+                <option value="oceania">Oceania</option>
+                <option value="europe">Europe></option>
+            </select>
+        </section>
+    </main>
+
+    <div class="loader"></div>
+    <section class="container-flags" data-aos="fade-down">
+        <div class="flag-div" data-aos="fade-up" data-aos-duration="1200">
+            <div class="img-div">
+                <img src="https://restcountries.eu/data/afg.svg" alt="Afghanistan">
+            </div>
+            <div class="value-div">
+                <h3>Afghanistan</h3>
+                <p>
+                    <span>population</span>
+                    <span>27,657,145</span>
+                </p>
+                <p>
+                    <span>region</span>
+                    <span>Asia</span>
+                </p>
+                <p>
+                    <span>capital</span>
+                    <span>Kabul</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+nav, section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    display: block;
+    position: relative;
+
+}
+
+input {
+    padding: 10px 30px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    border: none;
+    max-width: 100%;
+    width: 300%;
+    transition: all 0.3s ease-in;
+}
+
+option{ 
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2rem;
+}
+
+.container {
+    padding: 15px 40px;
+}
+
+p.dark-mode {
+    cursor: pointer;
+}
+
+.flag-div {
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    margin: 15px;
+    overflow: hidden;
+    background-color:antiquewhite;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.vaule-div {
+    padding: 10px;
+}
