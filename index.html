@@ -1,64 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>The World Is Yours</title>
 </head>
 
 <body>
-    <nav class="container">
-        <h3>The World Is Yours</h3>
-        <p class="dark-mode">Dark Mode</p>
+    <nav>
+        <div class="navbar">
+            <h3>The World Is Yours</h3>
+        </div>
     </nav>
 
-    <main>
-        <section class="container">
-            <form action>
-                <i class="fas fa-search"></i>
-                <input type="text" name="search" id="search" placeholder="find a country">
-            </form>
-            <select name="searchContinent" id="searchContinent">
-                <option>Search Continent</option>
-                <option value="americas">America</option>
-                <option value="africa">Africa</option>
-                <option value="asia">Asia</option>
-                <option value="oceania">Oceania</option>
-                <option value="europe">Europe></option>
-            </select>
-        </section>
-    </main>
-
-    <div class="loader"></div>
-    
-    <section id="app" class="container-flags" data-aos="fade-down">
-        
-
-        <!-- <div class="flag-div" data-aos="fade-up" data-aos-duration="1200">
-            <div class="img-div">
-                <img src="https://restcountries.eu/data/bdi.svg" alt="Burundi">
-            </div>
-            <div class="value-div">
-                <h3>Burundi</h3>
-                <p>
-                    <span>Population</span>
-                    <span>10,114,505</span>
-                </p>
-                <p>
-                    <span>Region</span>
-                    <span>Africa</span>
-                </p>
-                <p>
-                    <span>Capital</span>
-                    <span>Bujumbura</span>
-                </p>
-            </div>
-        </div> -->
+     <div id="main-container">
+         <div id="flag-container">
+             <img src="" alt="">
+         </div>
+         <div id="info-container">
+             <select id="countries"></select>
+             <p>Capital: <span id="capital"></span></p>
+             <p>Dialing Code: <span id="dialog-code"></span></p>
+             <p>Population: <span id="population"></span></p>
+             <p>Currencies: <span id="currencies"></span></p>
+             <p>Region: <span id="region"></span></p>
+             <p>Subregion: <span id="subregion"></span></p>
+         </div>
+     </div>
+        <script src="script.js"></script>
     </section>
-    <script src="script.js"></script>
+    
 </body>
-
 </html>
